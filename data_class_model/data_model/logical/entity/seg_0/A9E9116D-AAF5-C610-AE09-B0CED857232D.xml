@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9E9116D-AAF5-C610-AE09-B0CED857232D" name="Coach_Trophies">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:04:39 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Coach_Trophies</preferredAbbreviation>
+<shortName>Coach_Trophies</shortName>
+<synonym>Coach_Trophies</synonym>
+<synonymToDisplay>Coach_Trophies</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="coach_id" id="53BC326C-B261-2674-A537-C1482F006C68">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:04:55 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="league" id="C45EFD6A-8E55-4634-6DB9-6B82FA8422F7">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:05:03 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country" id="05C18E5F-43C7-5344-FAC8-16A884064079">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:05:20 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season" id="41A6F348-D942-7FDB-03AE-97952B2C5F11">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:05:31 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="place" id="BF8AEDA0-9542-FE40-8078-197EF5B43F57">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:05:42 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D7C5D00-B64D-60A2-1B74-43E211F668FD" name="Coach_Trophies PK">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:00 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>53BC326C-B261-2674-A537-C1482F006C68</attributeRef>
+<attributeRef>C45EFD6A-8E55-4634-6DB9-6B82FA8422F7</attributeRef>
+<attributeRef>41A6F348-D942-7FDB-03AE-97952B2C5F11</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

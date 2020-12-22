@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="data_model" id="C10EAAA0-0D35-FF18-ACEA-457DEA329FDA" version="3.5">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:36:52 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C10EAAA0-0D35-FF18-ACEA-457DEA329FDA</designId>
+</OSDM_Design>

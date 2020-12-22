@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC91C3E1-0A95-AD12-A940-E9734C55C0F9" name="Coaches_Career">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>A02C3C07-9D56-2DA1-C7D2-DBCCA1E445BB</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<abbreviation>Coaches_Career</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="coach_id" id="4FCD7A1E-D19D-F6D4-52FB-0F68A7913A56">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>43151184-E85D-D05A-2577-603A4D6E2380</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CF58093-CB55-25E0-0B0A-01B7E1F17D71" referredColumn="F6C77A8D-FF93-FF62-37AC-571A7B5610D9"/>
+</associations>
+</Column>
+<Column name="team_id" id="0EC8490A-BFAE-5193-709E-B17BED6FC8F1">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>35E2E55F-B4E6-AA95-11DD-6A0A0565A7D6</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="77A2468D-7016-883C-66EB-C804B8428318">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>56A4DE17-B9CD-86FC-5C04-D3E3C5812671</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="5B745347-142D-CD9E-F872-7C16CE685C00">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>2B390B18-027E-3937-55BA-8CBBD7431E9E</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Coaches_coach_id" id="7A65F960-273A-90FE-EBEF-ECE3555D0128">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-14 14:44:21 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA9803EA-95C2-17B4-31DD-4CF1DCE7F0AD" name="Coaches_Career_PK">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>20DF3D30-7AAE-BF3F-5638-B5CC4160D724</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FCD7A1E-D19D-F6D4-52FB-0F68A7913A56"/>
+<colUsage columnID="0EC8490A-BFAE-5193-709E-B17BED6FC8F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F891C4E2-9126-AD68-B10C-4807FF9B9F34" name="Coaches_Career_Coaches_FK">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-14 14:44:21 UTC</createdTime>
+<generatorID>BBDDE9E3-9A00-F19F-C8B9-847A8187E01A</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FCD7A1E-D19D-F6D4-52FB-0F68A7913A56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

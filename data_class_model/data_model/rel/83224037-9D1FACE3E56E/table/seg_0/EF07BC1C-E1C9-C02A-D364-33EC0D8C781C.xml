@@ -1,0 +1,531 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF07BC1C-E1C9-C02A-D364-33EC0D8C781C" name="Player_Stats">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>759C1227-2F63-96F1-01DB-4B3FB1B3A50A</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<abbreviation>Player_Stats</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="player_id" id="2F379FCD-EDE9-1035-FB0E-4B54F2EDA5C6">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>CD591CD9-5A60-6456-2F0A-31999C6AA444</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="137CAAFD-85E1-2C7E-9EED-DA9D489248A0" referredColumn="E7C515F7-6A0C-CF3D-C063-6FBD77850F0D"/>
+</associations>
+</Column>
+<Column name="team_id" id="63D32138-75BD-5A19-4D65-7370BA9907AE">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>A18D8958-0925-678C-E107-B2C2664111D3</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="league" id="0531E5EA-451F-CFB2-19DB-C6671CE72BEB">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>8CF635FE-FE5A-7D03-1566-DCB98C58E82A</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="season" id="AE0DCB2B-48EE-A0E6-ACC0-9DD2F75598FC">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>D4899411-EE53-21AE-8B3A-B27424B252B5</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="injured" id="429FF2E4-7581-3993-A6FE-0CCC043A4460">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>970A64B3-6171-0834-A225-9FC9645DE14E</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="A77CECCF-661D-3FCA-46AA-566D3009000E">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>A76D9963-E487-5C59-970B-6CFE86CCE274</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="captain" id="5C47E69C-54B7-8B9F-2DBF-5A7F8745987F">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>D1F50A6C-4389-9C1B-E9EA-0F1962A116A9</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="game_appearences" id="8CC299B6-D9BE-9979-26F5-8A2769FBB16C">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>D1D3047D-6F34-4D89-A6F4-4925B2CB7A2B</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="games_minutes_played" id="52DFE6E0-C62F-ADBD-09E6-B1C8ADAD06AC">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>117D8EC1-B7D3-185D-5F82-DAEF8FB976ED</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="games_lineups" id="67584BF4-0C8C-1A36-9E23-0FBEA0F806C5">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>0375ABEB-BA7A-7685-36E8-B76806055F56</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="substitutes_in" id="C5952A94-DCB4-F79C-842A-676DB5F83A5E">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>0C8D3C0C-2897-829B-AAC8-1A75CC1B6440</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="substitutes_out" id="61B6C719-ACA2-786F-1C9A-3584F9EA6987">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>E2CF813B-876F-E5F6-A281-874CFBE11558</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="substitutes_bench" id="05A1DD25-9955-886F-95FE-A7A0720F7EE3">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>53B4EA08-1DB7-45E0-A61C-371BA1FEF608</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="goals_total" id="BF19292A-B0C0-8A95-5228-E610F88C8F1D">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>D31F4737-A55B-62F6-B8F8-993646E013BF</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="assists" id="12302D15-44E3-5120-76ED-BF3A9239DBC6">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>2439363F-1D45-8062-DC41-64870161233B</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="conceded" id="D1183B94-C1E1-C360-8CD4-6066C7435685">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>D0F8D823-2567-9BC0-8E21-904E91BDEAAC</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saves" id="15C821E9-1D3C-0AC6-AEDF-81F4BDAD1EA9">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>5CCDC54A-0F9D-F5C4-4512-0D01DAD6A9CA</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passes_total" id="BDE26EA9-6883-3C80-CAE6-9E07C5935CAB">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>E9ADBC44-4808-7A94-9D94-F1B66054388F</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="key_pass" id="8B2D7057-EE18-8E18-B14B-C9E79CB7EBDC">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>20B76D68-271E-9C0E-C66A-BAD80BFD12AC</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pass_accuracy" id="EFA507F4-B9A4-8822-961D-E689CBD61CF9">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>0A431499-9EFD-CFB8-A50E-F0BD550875F9</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tackles_total" id="C448E027-B4EF-E45A-98B5-430D04C34121">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>9179410C-8659-D9E8-A269-1B81F23F6CE3</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tackles_blocks" id="2DD2E145-AE7F-E39A-85BB-763FD3875EA0">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>AA53E4EE-DEA9-3135-7751-3F9D44F74C68</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tackles_interceptions" id="046920CB-B765-A7FD-274D-5AC8BF70662B">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>6D5677D0-860E-EF60-3C44-280D09279EF8</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duels_total" id="6D1E1CCC-0AF6-2C3C-441E-67211D4BBBF7">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>5FF6AFAA-C50A-225E-0E4C-9DC09303F306</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duels_won" id="F9A10BE7-9B3D-A168-586D-D56D2CE047E1">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>5E970570-F8F6-E355-06DB-2E88D18F9AAA</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dribbles_attempts" id="79876AA6-B8A2-5ADF-6AC6-5A967BBDE798">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>2841B6B3-A805-05BD-A468-42CB9EC6D164</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dribbles_success" id="26EDE4BC-6D6A-1899-D0BE-E2586366FADB">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>DAD4857C-8BDF-6DAC-9026-4E5A5A695A44</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fouls_drawn" id="FBF99771-B943-2D99-6294-3032B347E67A">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>935A2A50-EFB6-A254-5D15-6F5F803FD69A</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fouls_commited" id="A2479701-2F11-9D55-D030-A4DDAB40737C">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>758EFC59-E803-F5DA-F6D7-65D3F43511D0</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shots_total" id="CF87DACC-EA66-52DC-8DDD-6C6CB0293C6C">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>82F2CB64-32CA-6D32-00D6-A8B994F5386F</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shots_on" id="04FBB0FC-A87F-91A5-07F2-0C1AC9F81874">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>65CA647D-4EA9-BF31-E0CC-8D557A0C600B</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penalty_won" id="EAA62A84-533A-1928-2B84-8F4FC914A2C3">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>5F17DB3C-A46B-C0B3-6D53-4CAF6E1D4A92</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penalty_commited" id="445A9765-7133-DA82-E1D5-E584E52312B3">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>A44283D2-7331-CF9A-9C35-EEA9089E3B4A</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penalty_success" id="6A19136C-38C9-113F-6811-A042C9FDA419">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>BE4BF1E7-2225-D9D1-F878-FC5DD5F66B08</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penalty_missed" id="BBBECDB5-90C7-B7AB-9656-DD62D505BAAD">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>49835DA4-9D92-F3F3-7A51-C31E95C172EF</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penalty_saved" id="D73F03B2-35F4-CD23-F710-F588AB077F2D">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>032056C1-55CB-87F7-656B-C7DDD0868415</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="yellow_card" id="97047A7A-4A4C-5F6E-16E1-8F839CCDE7E1">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>7427BBFB-1014-D71B-A4F3-4282AECADACD</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="yellowred" id="91F71A72-4C2A-51DA-238F-C84277EA663B">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>F6BAF89F-3AD9-9FF0-5270-A5217C1BEC19</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="red_card" id="17F0F59F-603B-D337-3B6B-240D0BD36A07">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>7D7C6B98-D742-3CAD-61D5-B91D3CCC4BA2</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Player_player_id" id="0195C072-F78C-2145-5F06-CCF035E29E05">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-14 14:41:52 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3EC21E6-1E65-14EA-5870-8B8971871525" name="Player_Stats_PK">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>44661DB3-08BA-D4E2-A72A-E754CA5C751C</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63D32138-75BD-5A19-4D65-7370BA9907AE"/>
+<colUsage columnID="0531E5EA-451F-CFB2-19DB-C6671CE72BEB"/>
+<colUsage columnID="AE0DCB2B-48EE-A0E6-ACC0-9DD2F75598FC"/>
+<colUsage columnID="2F379FCD-EDE9-1035-FB0E-4B54F2EDA5C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD2C40BF-2A5B-828B-9EBF-4596A8DCFFC2" name="Player_Stats_player_id_UN">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:48:11 UTC</createdTime>
+<generatorID>ECE9303A-0897-090E-D91A-A1861909EF5E</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F379FCD-EDE9-1035-FB0E-4B54F2EDA5C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B23AC9D6-592C-0639-4997-93573544ED8C" name="Player_Stats_Player_FK">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-14 14:41:52 UTC</createdTime>
+<generatorID>6730D8FF-3C53-19F2-5190-9CB5388C427B</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F379FCD-EDE9-1035-FB0E-4B54F2EDA5C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,558 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="759C1227-2F63-96F1-01DB-4B3FB1B3A50A" name="Player_Stats">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:45:27 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Player_Stats</preferredAbbreviation>
+<shortName>Player_Stats</shortName>
+<synonym>Player_Stats</synonym>
+<synonymToDisplay>Player_Stats</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="player_id" id="CD591CD9-5A60-6456-2F0A-31999C6AA444">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:47:22 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="team_id" id="A18D8958-0925-678C-E107-B2C2664111D3">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:47:35 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="league" id="8CF635FE-FE5A-7D03-1566-DCB98C58E82A">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:47:45 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season" id="D4899411-EE53-21AE-8B3A-B27424B252B5">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:48:05 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="injured" id="970A64B3-6171-0834-A225-9FC9645DE14E">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:48:24 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="A76D9963-E487-5C59-970B-6CFE86CCE274">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:54:47 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="captain" id="D1F50A6C-4389-9C1B-E9EA-0F1962A116A9">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:55:05 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="game_appearences" id="D1D3047D-6F34-4D89-A6F4-4925B2CB7A2B">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:55:37 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="games_minutes_played" id="117D8EC1-B7D3-185D-5F82-DAEF8FB976ED">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:56:00 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="games_lineups" id="0375ABEB-BA7A-7685-36E8-B76806055F56">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:56:22 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="substitutes_in" id="0C8D3C0C-2897-829B-AAC8-1A75CC1B6440">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:57:43 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="substitutes_out" id="E2CF813B-876F-E5F6-A281-874CFBE11558">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:58:19 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="substitutes_bench" id="53B4EA08-1DB7-45E0-A61C-371BA1FEF608">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:58:37 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="goals_total" id="D31F4737-A55B-62F6-B8F8-993646E013BF">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:58:52 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="assists" id="2439363F-1D45-8062-DC41-64870161233B">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:59:21 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conceded" id="D0F8D823-2567-9BC0-8E21-904E91BDEAAC">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 11:59:46 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="saves" id="5CCDC54A-0F9D-F5C4-4512-0D01DAD6A9CA">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:01:02 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passes_total" id="E9ADBC44-4808-7A94-9D94-F1B66054388F">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:01:19 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="key_pass" id="20B76D68-271E-9C0E-C66A-BAD80BFD12AC">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:01:47 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pass_accuracy" id="0A431499-9EFD-CFB8-A50E-F0BD550875F9">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:02:15 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tackles_total" id="9179410C-8659-D9E8-A269-1B81F23F6CE3">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:02:53 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tackles_blocks" id="AA53E4EE-DEA9-3135-7751-3F9D44F74C68">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:03:14 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tackles_interceptions" id="6D5677D0-860E-EF60-3C44-280D09279EF8">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:03:31 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duels_total" id="5FF6AFAA-C50A-225E-0E4C-9DC09303F306">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:03:47 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duels_won" id="5E970570-F8F6-E355-06DB-2E88D18F9AAA">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:04:15 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dribbles_attempts" id="2841B6B3-A805-05BD-A468-42CB9EC6D164">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:04:34 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dribbles_success" id="DAD4857C-8BDF-6DAC-9026-4E5A5A695A44">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:05:06 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fouls_drawn" id="935A2A50-EFB6-A254-5D15-6F5F803FD69A">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:05:24 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fouls_commited" id="758EFC59-E803-F5DA-F6D7-65D3F43511D0">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:05:54 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="shots_total" id="82F2CB64-32CA-6D32-00D6-A8B994F5386F">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:06:22 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="shots_on" id="65CA647D-4EA9-BF31-E0CC-8D557A0C600B">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:06:51 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="penalty_won" id="5F17DB3C-A46B-C0B3-6D53-4CAF6E1D4A92">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:07:10 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="penalty_commited" id="A44283D2-7331-CF9A-9C35-EEA9089E3B4A">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:07:25 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="penalty_success" id="BE4BF1E7-2225-D9D1-F878-FC5DD5F66B08">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:07:39 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="penalty_missed" id="49835DA4-9D92-F3F3-7A51-C31E95C172EF">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:07:53 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="penalty_saved" id="032056C1-55CB-87F7-656B-C7DDD0868415">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:08:07 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="yellow_card" id="7427BBFB-1014-D71B-A4F3-4282AECADACD">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:08:20 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="yellowred" id="F6BAF89F-3AD9-9FF0-5270-A5217C1BEC19">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:08:31 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="red_card" id="7D7C6B98-D742-3CAD-61D5-B91D3CCC4BA2">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:08:44 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44661DB3-08BA-D4E2-A72A-E754CA5C751C" name="Player_Stats PK">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:11:07 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A18D8958-0925-678C-E107-B2C2664111D3</attributeRef>
+<attributeRef>8CF635FE-FE5A-7D03-1566-DCB98C58E82A</attributeRef>
+<attributeRef>D4899411-EE53-21AE-8B3A-B27424B252B5</attributeRef>
+<attributeRef>CD591CD9-5A60-6456-2F0A-31999C6AA444</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="ECE9303A-0897-090E-D91A-A1861909EF5E" name="player_id_k">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:34:44 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<newElementsIDs>CD591CD9-5A60-6456-2F0A-31999C6AA444</newElementsIDs>
+<usedAttributes>
+<attributeRef>CD591CD9-5A60-6456-2F0A-31999C6AA444</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

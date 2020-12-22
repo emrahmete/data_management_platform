@@ -1,0 +1,213 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="833F6F08-9286-94D4-5EE6-63580604EF03" name="Player">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:38:25 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Player</preferredAbbreviation>
+<shortName>Player</shortName>
+<synonym>Player</synonym>
+<synonymToDisplay>Player</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="player_id" id="1580E221-FFF2-219E-D577-1520C0774886">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:39:03 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="player_name" id="DDF16AB7-0543-14C0-D406-D6AE7B22801C">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:39:51 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="D500D1CE-A69E-6F36-3BB1-8D04A530E07A">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:40:17 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="42510A8A-1603-EB15-8249-10E105CA41F3">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:40:41 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="position" id="4A39B425-2D53-7803-3A56-B0F1802803F5">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:40:56 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nationality" id="488DDB8F-62FD-716E-D5B4-CC44D56EF25A">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:41:18 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="team_id" id="B6135159-8ABC-2F4E-5CE9-8CD9BD013067">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:41:31 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birth_date" id="2FE9E5D1-6198-B9BF-6CBE-B2DC9EBF342C">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:41:48 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birth_place" id="BFDA9874-9D7C-EE75-A087-1239CF1A9880">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:42:18 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birth_country" id="6F1723E0-9EE1-310C-CD25-2E6E334B94D7">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:42:36 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="height" id="243DCAA3-8B8B-758E-2F55-D339FACBAED4">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:43:31 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weight" id="8DC47EC7-5964-AC01-9984-3DD70A2A8706">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:43:45 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="67CE5444-CDEF-7034-35C7-A2CE0E586540">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:55:35 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6730D8FF-3C53-19F2-5190-9CB5388C427B" name="Player PK">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:55:38 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1580E221-FFF2-219E-D577-1520C0774886</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

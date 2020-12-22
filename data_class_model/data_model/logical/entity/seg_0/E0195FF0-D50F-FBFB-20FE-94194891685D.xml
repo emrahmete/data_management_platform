@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0195FF0-D50F-FBFB-20FE-94194891685D" name="Coaches">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 06:57:38 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Coaches</preferredAbbreviation>
+<shortName>Coaches</shortName>
+<synonym>Coaches</synonym>
+<synonymToDisplay>Coaches</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="coach_id" id="E279A1A3-E3B3-08FF-04F5-59E9303F7C7C">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 06:58:01 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="6AB91720-B5F6-9E4E-5D0E-E420F715F1DB">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 06:58:21 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="C0BA9DB7-6D8C-C745-3073-209A482C76AC">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 06:58:34 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="664F92F9-C4C0-77AB-0DB1-F4C3681FBB30">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 07:06:09 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nationality" id="2BBD5572-E6F5-6039-6C9C-62B2277DF149">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 07:06:23 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birth_date" id="07A2084A-D267-F977-F4C3-7719F3C7106A">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 07:06:39 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birth_place" id="F9CB6615-028C-3C18-57AB-B6CA5F469F5E">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 07:06:51 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birth_country" id="31C0FEF7-C792-BAEF-D13C-1EE5011514C4">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 07:07:07 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="height" id="18A8493B-FA0F-88A0-C9A5-422D1F589F4A">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 07:07:19 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weight" id="5952A8AA-2C26-9F9F-A672-8DE5BB6E8E3B">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 07:07:33 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BBDDE9E3-9A00-F19F-C8B9-847A8187E01A" name="Coaches PK">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 06:58:15 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E279A1A3-E3B3-08FF-04F5-59E9303F7C7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

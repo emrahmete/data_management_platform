@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EFC288A-AE33-B4AC-00EE-DE21F1074D44" name="Team">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:50:29 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Team</preferredAbbreviation>
+<shortName>Team</shortName>
+<synonym>Team</synonym>
+<synonymToDisplay>Team</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="team_id" id="97845F24-FCEE-59C8-3061-DE3B88E0E9E6">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:50:59 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="A77DDF9E-421B-BEF4-8BB7-C3D7D323CC70">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:51:20 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="code" id="D2141938-8246-4236-E001-688B659AF6D0">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:51:30 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country" id="D73F7534-A952-B9AE-03E6-F2F537A59106">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:51:52 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_national" id="47A57C12-3E5C-7992-5C15-4554EB871CCC">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:52:07 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="founded" id="7E83AC22-2AA0-158E-E048-2FB83E3BCA55">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:53:00 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="venue_name" id="7F395F95-EE4F-D638-4AD8-619AFEE2A5ED">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:53:32 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="venue_surface" id="8903E266-842F-E6C6-3AB3-DD526424EC9A">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:53:51 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="venue_address" id="F14AEDE2-64BC-5492-B7B6-D3CB1B1D67CE">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:54:12 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="venue_city" id="E1CA071B-4C9C-C4F8-18BE-43B75D439DD4">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:54:30 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="venue_capacity" id="5360D6EB-2C62-339C-E3BF-ECE7204E670D">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:54:53 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0749C1FE-8895-D8DB-510F-F467BC81B48E" name="Teams PK">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-27 12:51:13 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="83224037-DD52-0B71-3541-9D1FACE3E56E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97845F24-FCEE-59C8-3061-DE3B88E0E9E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

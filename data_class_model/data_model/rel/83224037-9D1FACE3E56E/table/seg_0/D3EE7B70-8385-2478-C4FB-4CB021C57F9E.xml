@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3EE7B70-8385-2478-C4FB-4CB021C57F9E" name="Coach_Trophies">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>A9E9116D-AAF5-C610-AE09-B0CED857232D</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<abbreviation>Coach_Trophies</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="coach_id" id="BDD0163B-08EE-B73D-49F6-1A550168461A">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>53BC326C-B261-2674-A537-C1482F006C68</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75D45041-C170-BD97-0CCC-4FAD52F72594" referredColumn="F6C77A8D-FF93-FF62-37AC-571A7B5610D9"/>
+</associations>
+</Column>
+<Column name="league" id="88973879-0488-6EB5-9EBE-F547F89A8AC1">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>C45EFD6A-8E55-4634-6DB9-6B82FA8422F7</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="AB59F6F6-2199-A9AD-2825-E575A93ABD7D">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>05C18E5F-43C7-5344-FAC8-16A884064079</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="season" id="D807CC8E-D992-0E4B-4D57-E4435EB779B3">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>41A6F348-D942-7FDB-03AE-97952B2C5F11</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="place" id="73CF051F-3825-2951-8A9D-D5D2249BFAF8">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>BF8AEDA0-9542-FE40-8078-197EF5B43F57</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Coaches_coach_id" id="6C251E07-381A-0638-0536-07E95F4CBED1">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-14 14:43:55 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCD3FFFB-A9B8-6DB6-75D6-ABFD8DAB4937" name="Coach_Trophies_PK">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>0D7C5D00-B64D-60A2-1B74-43E211F668FD</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDD0163B-08EE-B73D-49F6-1A550168461A"/>
+<colUsage columnID="88973879-0488-6EB5-9EBE-F547F89A8AC1"/>
+<colUsage columnID="D807CC8E-D992-0E4B-4D57-E4435EB779B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1300DA9F-13FA-EDDE-D40E-5143FA412883" name="Coach_Trophies_Coaches_FK">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-14 14:43:55 UTC</createdTime>
+<generatorID>BBDDE9E3-9A00-F19F-C8B9-847A8187E01A</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDD0163B-08EE-B73D-49F6-1A550168461A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

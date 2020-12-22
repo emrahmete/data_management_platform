@@ -1,0 +1,211 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BC00A8C-D1B1-1B01-7918-A3CED9A08C6E" name="Player">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>833F6F08-9286-94D4-5EE6-63580604EF03</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<abbreviation>Player</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="player_id" id="E7C515F7-6A0C-CF3D-C063-6FBD77850F0D">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>1580E221-FFF2-219E-D577-1520C0774886</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="player_name" id="6B04A909-ED20-02EE-60D3-F7F9DCE427BB">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>DDF16AB7-0543-14C0-D406-D6AE7B22801C</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="00291C32-2A1B-CADC-CFA3-A0597BE377A3">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>D500D1CE-A69E-6F36-3BB1-8D04A530E07A</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="BD695757-07A8-6D1E-3C23-C0E3CC81DEA7">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>42510A8A-1603-EB15-8249-10E105CA41F3</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="position" id="44F3C385-5766-7013-966C-F71857C0BBE3">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>4A39B425-2D53-7803-3A56-B0F1802803F5</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nationality" id="8B5776F3-5294-B47F-F07A-7124C6248F84">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>488DDB8F-62FD-716E-D5B4-CC44D56EF25A</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="team_id" id="75EEFA3F-DA1E-111F-C04F-B2524A89E21C">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>B6135159-8ABC-2F4E-5CE9-8CD9BD013067</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38973B1A-0C05-43C8-6C5D-5BCB2F4B59DE" referredColumn="8A1E2799-7963-A7F6-1C29-A58E642EF43B"/>
+</associations>
+</Column>
+<Column name="birth_date" id="8A47B95F-9797-7875-CFFB-36EA0619AC88">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>2FE9E5D1-6198-B9BF-6CBE-B2DC9EBF342C</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_place" id="E7DA8BB1-74DF-3AD2-72B9-2044E53DCD76">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>BFDA9874-9D7C-EE75-A087-1239CF1A9880</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_country" id="6D7AC4C1-00B1-F7BF-B42C-5EEB6E1258B1">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>6F1723E0-9EE1-310C-CD25-2E6E334B94D7</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="height" id="A0502AE9-1D11-1569-B964-61A681376EC1">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>243DCAA3-8B8B-758E-2F55-D339FACBAED4</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weight" id="795DBF62-86A8-0CC9-8CB7-E2F8A7A95355">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>8DC47EC7-5964-AC01-9984-3DD70A2A8706</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="6F7A0A4A-0705-3CE6-D831-C6CFCD770B83">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:56:19 UTC</createdTime>
+<generatorID>67CE5444-CDEF-7034-35C7-A2CE0E586540</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B357E2A-1DB5-2910-3C2F-ADA12AAB1388" name="Player_PK">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>6730D8FF-3C53-19F2-5190-9CB5388C427B</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7C515F7-6A0C-CF3D-C063-6FBD77850F0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38486A1C-D927-54F1-0A9B-275B7554E85C" name="Player__IDX">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-08 12:15:20 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9C4FCA5D-DE82-8179-0E32-85D39CB94210</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="A3BD523F-2274-9C54-9948-425BDF851216" name="Player_Team_FK">
+<createdBy>emete</createdBy>
+<createdTime>2020-07-28 11:23:42 UTC</createdTime>
+<generatorID>3CB508FB-2AB9-1B85-C33D-38FA491F915B</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75EEFA3F-DA1E-111F-C04F-B2524A89E21C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

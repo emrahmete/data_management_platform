@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="75D45041-C170-BD97-0CCC-4FAD52F72594" containerWithKeyObject="D3EE7B70-8385-2478-C4FB-4CB021C57F9E" localFKIndex="1300DA9F-13FA-EDDE-D40E-5143FA412883" name="Coach_Trophies_Coaches_FK">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-14 14:43:55 UTC</createdTime>
+<generatorID>BBDDE9E3-9A00-F19F-C8B9-847A8187E01A</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<referredTableLongName>Coaches</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DF905C0A-7619-284E-F407-4AFED53B25A4</referredTableID>
+<keyObject>F4E36126-8F0F-1AE8-B963-CA84AD72105E</keyObject>
+<referredKeyID>F4E36126-8F0F-1AE8-B963-CA84AD72105E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>coach_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3680B7FE-28BA-4EBD-84FD-8DAF5192A4E7" name="Seasons">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>25DFDAC8-9908-64A3-EF11-71B28F72F493</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<abbreviation>Seasons</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="season" id="ACD52F65-DAEA-4D3C-7FD2-9FF163CCC57C">
+<createdBy>emete</createdBy>
+<createdTime>2020-08-13 08:06:59 UTC</createdTime>
+<generatorID>30D36917-6A16-624C-79D0-884CC97BC85F</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
